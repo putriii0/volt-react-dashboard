@@ -4,5 +4,8 @@
       "NODE_OPTIONS": "--openssl-legacy-provider"
     },
     "npmCommand": "npm install --legacy-peer-deps"
-  }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
 }
